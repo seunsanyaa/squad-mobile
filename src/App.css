@@ -1,5 +1,20 @@
+
+@font-face {
+  font-family: delirium;
+  src: url(https://res.cloudinary.com/seunsanyaa/raw/upload/v1640542002/DeliriumNcv_hpkkkc.ttf);
+}
+
+
+
+@font-face {
+  font-family: Helvetica;
+  src: url(https://res.cloudinary.com/seunsanyaa/raw/upload/v1640543366/FreeSans_ofb6tr.ttf);
+}
+
+
 .App {
-  text-align: center;
+
+  background: #202020;
 }
 
 .App-logo {
@@ -14,12 +29,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
+  padding-left: 1em;
+  padding-right: 1em;
+
+  background: #202020;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +53,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.menu-icon{
+  padding-top: 1.5em;
+position: fixed;
+}
+
+
+.girlImage{
+  padding-top: 0.5em;
+}
+
+.firstSection{
+  padding-top: 8em;
+  padding-bottom: 4em;
+}
+
+.secondSection{
+  padding-top: 1em;
+}
+.textarea{
+
+  font-family: "Helvetica";
+  padding-right: 1em ;
+}
+
+.name{
+  font-size: 1em;
 }
