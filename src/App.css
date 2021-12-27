@@ -83,3 +83,26 @@ position: fixed;
 .name{
   font-size: 1em;
 }
+
+
+@media (min-width: 414px) {
+
+  .squad{
+
+    width: 21em;
+  }
+  .girlImage{
+width: 20.9em;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .squad{
+
+    width:17.6em;
+  }
+  .girlImage{
+    width: 17.5em;
+  }
+}
